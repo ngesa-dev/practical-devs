@@ -1,16 +1,15 @@
-// tailwind.config.js
-
 module.exports = {
   content: [
+    "./index.html",              // ✅ add this
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
       screens: {
-        xs: "360px",     // Very small devices
-        sm: "480px",     // Phones
-        md: "1024px",    // Laptops (you requested md at 1024)
-        lg: "1280px",    // Desktops
+        xs: "360px",
+        sm: "480px",
+        md: "1024px",
+        lg: "1280px",
         xl: "1536px",
       },
       animation: {
@@ -20,7 +19,7 @@ module.exports = {
       keyframes: {
         scroll: {
           '0%': { transform: 'translateX(0%)' },
-      '100%': { transform: 'translateX(-50%)' }, // only scroll half (because we're duplicating)
+          '100%': { transform: 'translateX(-50%)' },
         }
       }
     },
