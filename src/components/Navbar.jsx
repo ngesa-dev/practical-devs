@@ -33,7 +33,7 @@ const Navbar = () => {
         <Link to="/" className="flex items-center gap-2">
           <img src="/practical_devs.png" alt="logo" className="h-8 w-8" />
           <span className="text-xl md:text-2xl font-bold text-primary">
-            Practical Devs
+            Orienta holdings
           </span>
         </Link>
 
